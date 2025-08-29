@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --text-color: #023047;
+  --primary-color: #03347b;
+  --shivam-primary-color: #0466c8;
+  --secondary-color: #fcbf49;
+  --background-color: #f0f8ff;
+  --highlight-color: #e3f2fd;
+  --shadow-color: rgba(4, 102, 200, 0.12);
+  --white: #ffffff;
+  --radius: 12px;
+  --font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+table {
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  background-color: var(--shadow-color);
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+table button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--highlight-color);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  overflow: hidden;
+}
+
+table button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: var(--secondary-color);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+table button:hover::before {
+  scale: 3;
+}
+
+table button:hover {
+  scale: 1.1;
+  box-shadow: 0px 0px 13px 10px rgba(190, 240, 188, 0.4);
+}
+
+table button:active {
+  scale: 1;
+}
+
+.table-container {
+  overflow-x: auto;
+}
