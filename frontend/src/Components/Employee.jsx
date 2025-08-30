@@ -1,6 +1,6 @@
 import '../styles/Employee.css'
 
-import HeaderImage from '../assets/HeaderImage.png';
+import HeaderImage from '../../public/assets/HeaderImage.png';
 
 const employees = [
   {

@@ -4,42 +4,42 @@ import { NavLink } from "react-router-dom";
 import "../styles/Home.css";
 
 // Assets
-import hero1 from "../assets/hero1.jpg";
-import hero2 from "../assets/hero2.jpg";
-import hero3 from "../assets/hero3.jpg";
-import hero4 from "../assets/hero4.jpg";
+import hero1 from "../../public/assets/hero1.jpg";
+import hero2 from "../../public/assets/hero2.jpg";
+import hero3 from "../../public/assets/hero3.jpg";
+import hero4 from "../../public/assets/hero4.jpg";
 
-import missionImg from "../assets/mission.png";
-import visionImg from "../assets/vision.png";
+import missionImg from "../../public/assets/mission.png";
+import visionImg from "../../public/assets/vision.png";
 
-import programEdu from "../assets/blog1.jpg";
-import programHealth from "../assets/blog2.jpg";
-import programWomen from "../assets/blog4.jpg";
-import programEnv from "../assets/blog7.jpg";
-import programLivelihood from "../assets/blog3.jpg";
-import programDisaster from "../assets/blog5.jpg";
-import programDigital from "../assets/blog6.jpg";
+import programEdu from "../../public/assets/blog1.jpg";
+import programHealth from "../../public/assets/blog2.jpg";
+import programWomen from "../../public/assets/blog4.jpg";
+import programEnv from "../../public/assets/blog7.jpg";
+import programLivelihood from "../../public/assets/blog3.jpg";
+import programDisaster from "../../public/assets/blog5.jpg";
+import programDigital from "../../public/assets/blog6.jpg";
 
-import testimonial1 from "../assets/woman.jpg";
-import testimonial2 from "../assets/men.jpg";
-import testimonial3 from "../assets/woman.jpg";
-import testimonial4 from "../assets/men.jpg";
-import testimonial5 from "../assets/woman.jpg";
+import testimonial1 from "../../public/assets/woman.jpg";
+import testimonial2 from "../../public/assets/men.jpg";
+import testimonial3 from "../../public/assets/woman.jpg";
+import testimonial4 from "../../public/assets/men.jpg";
+import testimonial5 from "../../public/assets/woman.jpg";
 
-import partner1 from "../assets/NITI Aayog.png";
-import partner2 from "../assets/Google.png";
-import partner3 from "../assets/UNICEF.png";
-import partner4 from "../assets/Tata Trusts.png";
-import partner5 from "../assets/HPCL Logo.png";
-import partner6 from "../assets/Indian Red Cross.png";
-import partner7 from "../assets/State_Bank_of_India_logo.png";
-import partner8 from "../assets/indiabank.jpeg";
+import partner1 from "../../public/assets/NITI Aayog.png";
+import partner2 from "../../public/assets/Google.png";
+import partner3 from "../../public/assets/UNICEF.png";
+import partner4 from "../../public/assets/Tata Trusts.png";
+import partner5 from "../../public/assets/HPCL Logo.png";
+import partner6 from "../../public/assets/Indian Red Cross.png";
+import partner7 from "../../public/assets/State_Bank_of_India_logo.png";
+import partner8 from "../../public/assets/indiabank.jpeg";
 
-import blog1 from "../assets/blog1.jpg";
-import blog2 from "../assets/blog2.jpg";
-import blog3 from "../assets/blog3.jpg";
-import blog4 from "../assets/blog4.jpg";
-import blog5 from "../assets/blog5.jpg";
+import blog1 from "../../public/assets/blog1.jpg";
+import blog2 from "../../public/assets/blog2.jpg";
+import blog3 from "../../public/assets/blog3.jpg";
+import blog4 from "../../public/assets/blog4.jpg";
+import blog5 from "../../public/assets/blog5.jpg";
 
 // Testimonials data
 const testimonials = [

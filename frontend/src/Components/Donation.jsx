@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 import '../styles/Donation.css'
-import qrImage from "../assets/qr.png"
-import donationImage from "../assets/donation.png"
+import qrImage from "../../public/assets/qr.png"
+import donationImage from "../../public/assets/donation.png"
 
 
 const Donation = () => {

@@ -1,10 +1,10 @@
 import '../../styles/Partner.css';
-import partner1 from '../../assets/UNICEF.png';
-import partner2 from '../../assets/Tata Trusts.png';
-import partner3 from '../../assets/Google.png';
-import partner4 from '../../assets/Indian Red Cross.png';
-import partner5 from '../../assets/NITI Aayog.png';
-import partner6 from '../../assets/World Wildlife Fund.jpg';
+import partner1 from '../../../public/assets/UNICEF.png';
+import partner2 from '../../../public/assets/Tata Trusts.png';
+import partner3 from '../../../public/assets/Google.png';
+import partner4 from '../../../public/assets/Indian Red Cross.png';
+import partner5 from '../../../public/assets/NITI Aayog.png';
+import partner6 from '../../../public/assets/World Wildlife Fund.jpg';
 
 const partners = [
   {

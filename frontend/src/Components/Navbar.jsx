@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
 import '../styles/Navbar.css';
-import Logo from '../assets/Logo.png';
+import Logo from '../../public/assets/Logo.png';
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(true);

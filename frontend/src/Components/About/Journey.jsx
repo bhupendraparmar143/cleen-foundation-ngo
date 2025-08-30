@@ -1,5 +1,5 @@
 import React from "react";
-import journeyImg from "../../assets/voice.jpg";
+import journeyImg from "../../../public/assets/voice.jpg";
 import "../../styles/Journey.css";
 import { motion } from "framer-motion";
 

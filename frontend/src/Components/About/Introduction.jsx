@@ -2,16 +2,16 @@ import React from "react";
 import "../../styles/Introduction.css";
 import "../../styles/About.css";
 
-import introImg from "../../assets/Logo.png";
-import missionImg from "../../assets/mission.png";
-import workImg1 from "../../assets/awareness.jpg";
-import workImg2 from "../../assets/skill_developement.jpg";
-import workImg3 from "../../assets/clean_drive.png";
-import volunteerImg from "../../assets/voice.jpg";
-import journeyImg from "../../assets/journey.jpg"; // ✅ Add journey image
-import sdg1 from "../../assets/health.jpg";
-import sdg2 from "../../assets/gender.jpg";
-import sdg3 from "../../assets/climate.png";
+import introImg from "../../../public/assets/Logo.png";
+import missionImg from "../../../public/assets/mission.png";
+import workImg1 from "../../../public/assets/awareness.jpg";
+import workImg2 from "../../../public/assets/skill_developement.jpg";
+import workImg3 from "../../../public/assets/clean_drive.png";
+import volunteerImg from "../../../public/assets/voice.jpg";
+import journeyImg from "../../../public/assets/journey.jpg"; // ✅ Add journey image
+import sdg1 from "../../../public/assets/health.jpg";
+import sdg2 from "../../../public/assets/gender.jpg";
+import sdg3 from "../../../public/assets/climate.png";
 
 export default function Introduction() {
   return (

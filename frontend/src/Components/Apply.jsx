@@ -1,9 +1,9 @@
 
 import "../styles/Apply.css"
-import backgroundImg from "../assets/Teacher.png";
+import backgroundImg from "../../public/assets/Teacher.png";
 import axios from "axios";
 
-import API_URL from "../assets/API_URL"
+import API_URL from "../../public/assets/API_URL"
 import { useState } from "react";
 
 const Apply = () => {

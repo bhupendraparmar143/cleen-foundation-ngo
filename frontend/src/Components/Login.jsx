@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import donationImage from "../assets/donation.png"
+import donationImage from "../../public/assets/donation.png"
 
 import '../styles/Login.css'
 

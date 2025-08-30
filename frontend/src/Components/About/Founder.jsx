@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../../styles/Founder.css";
-import founderImg from "../../assets/voice.jpg";
+import founderImg from "../../../public/assets/voice.jpg";
 import {
   FaTwitter,
   FaLinkedin,
@@ -13,11 +13,11 @@ import {
   FaRegLightbulb,
 } from "react-icons/fa";
 
-import unLogo from "../../assets/un_logo.png";
-import forbesLogo from "../../assets/forbes-logo.png";
-import indiaTodayLogo from "../../assets/india-today-logo.png";
-import tedxLogo from "../../assets/tedx-logo.png";
-import whartonLogo from "../../assets/wharton-logo.png";
+import unLogo from "../../../public/assets/un_logo.png";
+import forbesLogo from "../../../public/assets/forbes-logo.png";
+import indiaTodayLogo from "../../../public/assets/india-today-logo.png";
+import tedxLogo from "../../../public/assets/tedx-logo.png";
+import whartonLogo from "../../../public/assets/wharton-logo.png";
 
 export default function Founder() {
   return (

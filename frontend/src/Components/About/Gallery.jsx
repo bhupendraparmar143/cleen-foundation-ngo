@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "../../styles/Gallery.css";
 
-import blog1 from "../../assets/blog1.jpg";
-import blog2 from "../../assets/blog2.jpg";
-import blog3 from "../../assets/blog3.jpg";
-import blog4 from "../../assets/blog4.jpg";
-import blog5 from "../../assets/blog5.jpg";
-import blog6 from "../../assets/blog6.jpg";
-import blog7 from "../../assets/blog7.jpg";
-import blog8 from "../../assets/blog8.jpg";
+import blog1 from "../../../public/assets/blog1.jpg";
+import blog2 from "../../../public/assets/blog2.jpg";
+import blog3 from "../../../public/assets/blog3.jpg";
+import blog4 from "../../../public/assets/blog4.jpg";
+import blog5 from "../../../public/assets/blog5.jpg";
+import blog6 from "../../../public/assets/blog6.jpg";
+import blog7 from "../../../public/assets/blog7.jpg";
+import blog8 from "../../../public/assets/blog8.jpg";
 
 const images = [blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8];
 
