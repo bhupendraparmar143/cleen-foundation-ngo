@@ -9,17 +9,17 @@ import App from './App.jsx';
 import Error from './components/Error.jsx';
 
 // Auth
-import Login from './components/Login.jsx';
-import Register from './components/Register.jsx';
+import Login from './Components/Login.jsx';
+import Register from './Components/Register.jsx';
 
 // Pages
 import Home from './Components/Home.jsx';
-import Apply from './components/Apply.jsx';
-import Blog from './components/Blog.jsx';
-import Chatbot from './components/Chatbot.jsx';
-import Contact from './components/Contact.jsx';
-import Donation from './components/Donation.jsx';
-import Employee from './components/Employee.jsx';
+import Apply from './Components/Apply.jsx';
+import Blog from './Components/Blog.jsx';
+import Chatbot from './Components/Chatbot.jsx';
+import Contact from './Components/Contact.jsx';
+import Donation from './Components/Donation.jsx';
+import Employee from './Components/Employee.jsx';
 
 // Admin Dashboard
 import Admin, {
@@ -30,13 +30,13 @@ import Admin, {
 } from './components/Admin.jsx';
 
 // About Layout + Sub Pages
-import AboutLayout from './components/AboutLayout.jsx';
-import Introduction from './components/About/Introduction.jsx';
-import Journey from './components/About/Journey.jsx';
-import Founder from './components/About/Founder.jsx';
-import Team from './components/About/Team.jsx';
-import Gallery from './components/About/Gallery.jsx';
-import Partners from './components/About/Partners.jsx';
+import AboutLayout from './Components/AboutLayout.jsx';
+import Introduction from './Components/About/Introduction.jsx';
+import Journey from './Components/About/Journey.jsx';
+import Founder from './Components/About/Founder.jsx';
+import Team from './Components/About/Team.jsx';
+import Gallery from './Components/About/Gallery.jsx';
+import Partners from './Components/About/Partners.jsx';
 
 // Router configuration
 const router = createBrowserRouter([
