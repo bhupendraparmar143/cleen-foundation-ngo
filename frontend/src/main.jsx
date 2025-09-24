@@ -1,7 +1,7 @@
 // src/main.jsx
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import './index.css';
 
 // Root App Layout
@@ -20,6 +20,7 @@ import Chatbot from './Components/Chatbot.jsx';
 import Contact from './Components/Contact.jsx';
 import Donation from './Components/Donation.jsx';
 import Employee from './Components/Employee.jsx';
+import StudentDashboard from './Components/StudentDashboard/StudentDashboard.jsx';
 
 // Admin Dashboard
 import Admin, {
@@ -37,6 +38,12 @@ import Founder from './Components/About/Founder.jsx';
 import Team from './Components/About/Team.jsx';
 import Gallery from './Components/About/Gallery.jsx';
 import Partners from './Components/About/Partners.jsx';
+
+// Simple protected route wrapper
+const ProtectedRoute = ({ children }) => {
+  const isAuthenticated = typeof window !== 'undefined' && localStorage.getItem('isAuthenticated') === 'true'
+  return isAuthenticated ? children : <Navigate to="/cleen-foundation-ngo/login" replace />
+}
 
 // Router configuration
 const router = createBrowserRouter([
@@ -75,7 +82,12 @@ const router = createBrowserRouter([
       { path: 'donation', element: <Donation /> },
       { path: 'employee', element: <Employee /> },
       { path: 'login', element: <Login /> },
-      { path: 'register', element: <Register /> }
+      { path: 'register', element: <Register /> },
+      { path: 'student', element: (
+        <ProtectedRoute>
+          <StudentDashboard />
+        </ProtectedRoute>
+      ) }
     ]
   }
 ]);

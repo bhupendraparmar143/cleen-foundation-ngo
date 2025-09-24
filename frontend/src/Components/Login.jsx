@@ -16,8 +16,14 @@ const Login = () => {
   }
   const handleLogin = (e) => {
     e.preventDefault();
-    alert('Login successful (mock)');
-    console.log(loginData)
+    const { email, password } = loginData;
+    if (email === 'admin@gmail.com' && password === 'info') {
+      localStorage.setItem('isAuthenticated', 'true');
+      localStorage.setItem('loggedInEmail', email);
+      navigate('/cleen-foundation-ngo/student');
+    } else {
+      alert('Invalid credentials');
+    }
   };
 
   return (
